@@ -1,0 +1,150 @@
+int led1 = D6; // Instead of writing D0 over and over again, we'll write led1
+// You'll need to wire an LED to this one to see it blink.
+
+
+
+void setup() {
+
+    // We are going to tell our device that D0 and D7 (which we named led1 and led2 respectively) are going to be output
+    // (That means that we will be sending voltage to them, rather than monitoring voltage that comes from them)
+
+    // It's important you do this here, inside the setup() function rather than outside it or in the loop function.
+
+    pinMode(led1, OUTPUT);
+
+}
+
+void loop() {
+    
+    //Gimme a Z
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(600);
+    
+    
+    //Gimme a H
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(600);
+    
+    //Gimme a E
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(600);
+    
+    //Gimme a N
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(600);
+    
+    //Gimme a Y
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(600);
+    
+    //Gimme a U
+    
+     //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+     //dot
+    digitalWrite(led1, HIGH);
+    delay(200);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    //dash
+    digitalWrite(led1, HIGH);
+    delay(600);
+    digitalWrite(led1, LOW);
+    delay(200);
+    
+    delay(600);
+}
